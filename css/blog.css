@@ -1,0 +1,178 @@
+body{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}
+article {
+	width: 340px;
+}
+article img{
+	width: 100%;
+    height: 200px;
+}
+
+.contenedor{
+	width: 80%;
+	margin:auto;
+}
+
+.background{
+	background-image: url('../images/como-hacer-un-blog.jpg');
+	background-size: cover;
+}
+
+.header{
+	background: #1D4359;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu, .menu li{
+	display: inline-block;
+}
+
+.menu li{
+	color: white;
+	list-style: none;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu li.barra:after{
+	content: '∣';
+	margin: 0 10px 0 10px;
+    font-size: 23px;
+}
+
+.menu li.separated{
+	margin: 0 20px;
+}
+
+.formulario{
+	margin: 10px 0;
+}
+.img-principal{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.img-principal .cuadro img{
+	width: 100%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.texto span{
+	font-size: 13px;
+}
+
+.texto{
+	display: flex;
+    justify-content: space-between;
+}
+
+.background{
+	background-image: url('../images/como-hacer-un-blog.jpg');
+	background-size: cover;
+}
+
+.principal{
+	width: 100%;
+	height: 600px;
+	display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.formulario #buscar{
+	padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #d0caca;
+}
+
+.formulario .boton{
+	padding: 6px 8px;
+    background: #101019;
+    color: #FFF;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.formulario .boton:before{
+	content: "🔍";
+	font-size: 15px;
+}
+
+.menu .iniciar-sesion{
+    color: white;
+    background:rgb(255, 72, 66);
+    border-radius: 5px;
+    border-color: rgb(208, 39, 42);
+    border-style: none none solid;
+    padding: 8px 14px;
+    font-size: 15px;
+}
+
+.footer{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pagination{
+	margin: 80px 0;
+}
+
+.pagination a.active {
+    background-color: white;
+    color: #7f8892;
+    border: 0;
+}
+
+.pagination a{
+	background: #e4e4e4;
+    color: #7f8892;
+    text-decoration: none;
+    padding: 10px 17px;
+    border: 1px solid #bfc5e0;
+}
+
+.pagination span{
+	color: #7f8892;
+}
+
+.principal .opacidad-cuadro{
+	background: #d2d2d2;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    margin-bottom: 100px;
+    width: 45%;
+    margin-left: 32px;
+    padding: 30px 40px;
+}
+
+.principal .user{
+	display: flex;
+    align-items: center;
+    position: relative;
+}
+.principal .user span{
+	margin-left: 10px;
+}
+
+.principal .user .fecha{
+	position: absolute;
+    right: 0;
+}
+
+
+    
